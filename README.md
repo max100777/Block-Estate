@@ -40,44 +40,22 @@ Transactions are powered by **ETH** and secured via **MetaMask**, while developm
 - UI built with **React.js**.
 - Blockchain interaction handled via **Web3.js** or **Ethers.js**.
 
----
-
-## ⚙️ How It Works
-
-### 🧭 System Flow
-
-```mermaid
-graph LR
-    A[User Opens Web App (React)] --> B[Connect MetaMask Wallet]
-    B --> C[View Listed Properties]
-    C --> D[Choose to List or Buy Property]
-
-    D -->|List Property| E[Enter Property Details + No. of Tokens]
-    E --> F[Smart Contract Mints Token(s)]
-    F --> G[Ownership Recorded on Blockchain]
-
-    D -->|Buy Property| H[Select Token(s) to Buy]
-    H --> I[Confirm & Pay ETH via MetaMask]
-    I --> J[Smart Contract Transfers Tokens]
-    J --> K[Ownership Updated on Blockchain]
-
-    G --> L[Transaction History View]
-    K --> L
-
-📌 Project Status
+### 📌 Project Status
 🚧 In Development — Currently running on local Ganache.
 
-🧪 Next Step — Deploy to Ethereum Testnet for live testing.
+### 🧪 Next Step — Deploy to Ethereum Testnet for live testing.
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome!
 Please open an issue to discuss changes before submitting a pull request.
 
-📫 Contact
+### 📫 Contact
 For inquiries or collaboration:
 
-yash.zanwar.10.10@gmail.com
-harshwalke16@gmail.com
-saif.khan10082006@gmail.com
-eklavya.puri11@gmail.com
-patilsiddhi885@gmail.com
+yash.zanwar.10.10@gmail.com <br>
+harshwalke16@gmail.com <br>
+saif.khan10082006@gmail.com <br>
+eklavya.puri11@gmail.com <br>
+patilsiddhi885@gmail.com <br>
+
+---
